@@ -1,0 +1,89 @@
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+       max-width: 1152px;
+    }
+}
+@media (max-width: 1024px) {
+    header #main-nav .pgs, .right{
+        display: none;
+    }
+    header .container #main-nav .left .logo strong{
+        margin-left: 0px;
+    }
+    .main .container .men-card div img {
+        width: 172px;
+        height: 235px;
+        margin-right: 5px;
+    }
+    .email-reg {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .email-reg div {
+        margin-top: 10px;
+        margin-right: 192px;
+    }
+    .email-reg .ntext {
+        width: 350px;
+    }
+}
+@media (max-width: 820px) {
+    .email-reg {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .email-reg div {
+        margin-top: 10px;
+        margin-right: 135px;
+        margin-left: -50px;
+    }
+    .main .container .men-card div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+
+    }
+    .main .container .men-card div a {
+        margin: 60px 100px 0 0;
+    }
+}
+@media (max-width: 415px) {
+    .email-reg {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .email-reg .ntext {
+        width: 200px;
+    }
+    .email-reg div {
+            margin: 0;
+            margin-left: -200px;
+    }
+    footer .container .row .box{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+}
